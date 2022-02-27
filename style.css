@@ -54,7 +54,8 @@
  }
   ul.b {
     list-style-type: none;
-    text-align: center;
+    padding-top: 10px;
+    padding-block: 10px;
 
   }
   li.b{
