@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
+    color: white;
   }
   /* Pozicionálás */
   
@@ -26,9 +27,13 @@
     justify-content: center;
     align-items: center;
     font-family: verdana;
-  }
-  body {
+    font-color: white;
     height: 100vh;
+    background: url('https://img5.goodfon.com/wallpaper/nbig/5/9c/tsvety-fon-wood-flowers-siren-purple-lilac.jpg') no-repeat center center fixed;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   }
   .head, .links {
     text-align: center;
@@ -50,8 +55,8 @@
  h2 {
      text-align:center;
      padding-top:10px;
-     text-shadow: 1px 1px 2px rgb(163, 160, 160);
- }
+     text-shadow: 1px 3px 4px rgb(19, 19, 19);
+    }
   ul.b {
     list-style-type: none;
     padding-top: 10px;
@@ -77,28 +82,19 @@
       text-align: center;
   }
   ul.a{
-    text-align: center;
 list-style-position:inside;
+padding-left: 40%;
+text-align: left;
+}
   }
 li.a {
-    text-align: center;
+    text-align: left;
         display:list-item;
         padding: 1px;
 margin: auto;
         list-style-type: circle;
       }
-.about: {
-    text-align: center;
-}
 
-
-  body {
-    background: url('https://besthqwallpapers.com/Uploads/12-2-2018/40423/thumb2-lilac-light-wooden-background-spring-flowers-purple-spring-flowers.jpg') no-repeat center center fixed;
-    background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  }
   img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
